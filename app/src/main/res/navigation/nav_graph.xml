@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_timetable">
+
+    <fragment
+        android:id="@+id/navigation_timetable"
+        android:name="com.example.collegecompanion.ui.TimetableFragment"
+        android:label="Timetable" />
+
+    <fragment
+        android:id="@+id/navigation_notes"
+        android:name="com.example.collegecompanion.ui.NotesFragment"
+        android:label="Notes" />
+
+    <fragment
+        android:id="@+id/navigation_assignments"
+        android:name="com.example.collegecompanion.ui.AssignmentsFragment"
+        android:label="Assignments" />
+
+    <fragment
+        android:id="@+id/navigation_announcements"
+        android:name="com.example.collegecompanion.ui.AnnouncementsFragment"
+        android:label="Announcements" />
+
+</navigation> 

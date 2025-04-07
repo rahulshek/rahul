@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_notes"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/title_notes" />
+
+    <item
+        android:id="@+id/navigation_assignments"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/title_assignments" />
+
+    <item
+        android:id="@+id/navigation_timetable"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/title_timetable" />
+</menu> 
